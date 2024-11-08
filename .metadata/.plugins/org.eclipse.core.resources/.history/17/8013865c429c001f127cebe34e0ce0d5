@@ -1,0 +1,52 @@
+package com;
+
+import java.util.List;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+
+import com.dao.EmployeeRepository;
+import com.model.Employee;
+
+@SpringBootApplication
+public class Application {
+
+	public static void main(String[] args) {
+		ApplicationContext context = SpringApplication.run(Application.class, args);
+		
+		EmployeeRepository repo = context.getBean(EmployeeRepository.class);
+		
+//		findAll(repo);
+		
+//		findByNameAndAge(repo);
+		
+//		findByNameOrAge(repo);
+		
+//		findByName(repo);
+		
+		List<Employee> eList = repo.findByNameIs("Eve");
+		
+	}
+
+	private static void findByName(EmployeeRepository repo) {
+		List<Employee> eList = repo.findByName("Bob");
+		System.out.println(eList);
+	}
+
+	private static void findByNameOrAge(EmployeeRepository repo) {
+		List<Employee> eList = repo.findByNameOrAge("Alice", 28);
+		System.out.println(eList);
+	}
+
+	private static void findByNameAndAge(EmployeeRepository repo) {
+		List<Employee> eList = repo.findByNameAndAge("Alice", 28);
+		System.out.println(eList);
+	}
+
+	private static void findAll(EmployeeRepository repo) {
+		List<Employee> eList = repo.findAll();
+		System.out.println(eList);
+	}
+
+}

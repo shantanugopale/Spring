@@ -1,0 +1,19 @@
+1730898655248	Extract method 'findAll'
+1730898870338	Extract method 'findByNameAndAge'
+1730899131098	Extract method 'findByNameOrAge'
+1730899308286	Extract method 'findByName'
+1730899450922	Extract method 'findByNameIs'
+1730899627082	Extract method 'findByNameEquals'
+1730899900243	Extract method 'findBySalaryBetween'
+1730900060381	Extract method 'findByAgeLessThan'
+1730900314874	Extract method 'findByLessThanEqual'
+1730900358133	Extract method 'findByGreaterThan'
+1730900406572	Extract method 'findByGreaterThanEqual'
+1730900615355	Extract method 'findByAgeAfter'
+1730900642308	Extract method 'findByAgeBefore'
+1730900824699	Extract method 'findByNameLike'
+1730900988255	Extract method 'findByNameIgnoreCase'
+1730901340248	Extract method 'findByAgeIn'
+1730968458075	Copy package
+1730968478801	Copy package
+1730968487658	Copy package

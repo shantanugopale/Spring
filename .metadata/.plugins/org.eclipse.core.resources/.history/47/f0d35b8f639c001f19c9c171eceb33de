@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Product Page</title>
+</head>
+<body>
+<h1>Products</h1>
+<%
+	List<Product> pList =(List<Product>) request.getAttribute("data");
+%>
+
+	<table border="1">
+	<tr>
+		<th>Product Id</th>
+		<th>Product Name</th>
+		<th>Product Category</th>
+		<th>Product Price</th>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+</body>
+</html>

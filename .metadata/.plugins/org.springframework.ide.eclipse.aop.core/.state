@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="03-SpringBoot_JPA"/>
+<aop-project name="02-SpringBoot_JPA_AdvanceQuery_Methods"/>
+<aop-project name="02-SpringBootMVC"/>
+<aop-project name="spring-web-mvc-student-operationsDemo"/>
+<aop-project name="03-SpringBoot_JPA_AdvanceQuery_Methods-Web"/>
+<aop-project name="01-SpringBootFirst"/>
+<aop-project name="01-SpringBoot_JPA_Query_Methods"/>
+<aop-project name="04-SpringBootEmp-crud-app"/>
+<aop-project name="spring-web-mvc"/>
+</aop-reference-model>

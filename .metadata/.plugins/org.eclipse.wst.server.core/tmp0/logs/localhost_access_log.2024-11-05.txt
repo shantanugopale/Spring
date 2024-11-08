@@ -1,0 +1,12 @@
+127.0.0.1 - - [05/Nov/2024:14:29:22 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [05/Nov/2024:14:29:39 +0530] "GET /spring-web-mvc-student-operations/ HTTP/1.1" 200 169
+0:0:0:0:0:0:0:1 - - [05/Nov/2024:14:29:40 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [05/Nov/2024:14:29:44 +0530] "GET /spring-web-mvc-student-operations/login HTTP/1.1" 200 350
+0:0:0:0:0:0:0:1 - - [05/Nov/2024:14:29:51 +0530] "POST /spring-web-mvc-student-operations/logincheck HTTP/1.1" 200 350
+0:0:0:0:0:0:0:1 - - [05/Nov/2024:14:29:57 +0530] "POST /spring-web-mvc-student-operations/logincheck HTTP/1.1" 200 350
+0:0:0:0:0:0:0:1 - - [05/Nov/2024:14:30:04 +0530] "POST /spring-web-mvc-student-operations/logincheck HTTP/1.1" 200 350
+0:0:0:0:0:0:0:1 - - [05/Nov/2024:14:31:19 +0530] "POST /spring-web-mvc-student-operations/logincheck HTTP/1.1" 200 350
+0:0:0:0:0:0:0:1 - - [05/Nov/2024:14:32:47 +0530] "GET /spring-web-mvc-student-operations HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [05/Nov/2024:14:32:47 +0530] "GET /spring-web-mvc-student-operations/ HTTP/1.1" 200 169
+0:0:0:0:0:0:0:1 - - [05/Nov/2024:14:32:49 +0530] "GET /spring-web-mvc-student-operations/register HTTP/1.1" 200 548
+0:0:0:0:0:0:0:1 - - [05/Nov/2024:14:32:55 +0530] "POST /spring-web-mvc-student-operations/savestudent HTTP/1.1" 500 13667

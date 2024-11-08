@@ -1,0 +1,28 @@
+package com.controller;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.model.Employee;
+import com.service.EmployeeService;
+
+@RestController // It Returns Data
+public class EmployeeController {
+
+	private EmployeeService service;
+	
+	@RequestMapping("/")
+	public String landing()
+	{
+		return "Welcome to Landing Page";
+	}
+	
+	@RequestMapping("/save-emp")
+	public Employee saveEmp()
+	{
+		List<Employee> eList = service.getAllData();
+		return "eList";
+	}
+}

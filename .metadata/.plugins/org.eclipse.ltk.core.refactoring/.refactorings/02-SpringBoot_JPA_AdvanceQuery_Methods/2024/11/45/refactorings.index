@@ -1,0 +1,4 @@
+1730910156420	Rename type 'IProductRepository'
+1730911357929	Extract method 'getAllData'
+1730911423999	Extract method 'getFirstPage'
+1730911605162	Extract method 'getSecondPage'
