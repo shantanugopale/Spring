@@ -9,4 +9,5 @@
 <aop-project name="01-SpringBoot_JPA_Query_Methods"/>
 <aop-project name="04-SpringBootEmp-crud-app"/>
 <aop-project name="spring-web-mvc"/>
+<aop-project name="04-SpringBootEmp-crud-app_status-code"/>
 </aop-reference-model>
